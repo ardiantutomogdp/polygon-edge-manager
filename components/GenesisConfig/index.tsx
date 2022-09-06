@@ -8,10 +8,12 @@ interface GenesisConfigProps {
 }
 
 export interface GenesisConfig {
+  chainName: string;
   premineAddress: string;
   premineValue: string;
   chainId: number;
   blockGasLimit: number;
+  blockTime: number;
 }
 
 export default function GenesisConfig(props: GenesisConfigProps) {
@@ -22,7 +24,9 @@ export default function GenesisConfig(props: GenesisConfigProps) {
     "1000000000000000000000"
   );
   const [chainId, setChainId] = useState<number>(999);
+  const [blockTime, setBlockTime] = useState<number>(10);
   const [blockGasLimit, setBlockGasLimit] = useState<number>(1000000000);
+  const [chainName, setChainName] = useState<string>("test-chain");
 
   const generateGenesisFile = async () => {
     const genesisConfig = {
@@ -30,6 +34,8 @@ export default function GenesisConfig(props: GenesisConfigProps) {
       premineValue,
       chainId,
       blockGasLimit,
+      blockTime,
+      chainName,
     } as GenesisConfig;
     fetch("http://localhost:3000/api/genesis", {
       method: "POST",
@@ -41,6 +47,22 @@ export default function GenesisConfig(props: GenesisConfigProps) {
 
   return (
     <div style={{ marginTop: "1rem", padding: "1rem " }}>
+      Chain Name:
+      <Input
+        value={chainName}
+        placeholder="Chain Name"
+        onChange={(e) => {
+          setChainName(e.target.value);
+        }}
+      />
+      Block Time:
+      <Input
+        value={blockTime}
+        placeholder="Block Time"
+        onChange={(e) => {
+          setBlockTime(parseInt(e.target.value));
+        }}
+      />
       Premine Address:
       <Input
         value={premineAddress}

@@ -31,3 +31,570 @@
 2022-09-06T18:59:58.721+0700 [INFO]  polygon.ibft.consensus: sequence done: height=639
 2022-09-06T18:59:58.721+0700 [INFO]  polygon.ibft.consensus: sequence started: height=640
 2022-09-06T18:59:58.721+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:00.733+0700 [INFO]  polygon.blockchain: new block: number=640 txs=0 hash=0xf6a27b45621a18f9d165473ce9311e2034c58fc5b8b14978b6ee92d7a00f846c parent=0x1c16ec24b273da928233ae0cf671849961d1d7c922c84236850e2d0ce0a4ad39 generation_time_in_seconds=2
+2022-09-06T19:00:00.733+0700 [INFO]  polygon.ibft: block committed: number=640 hash=0xf6a27b45621a18f9d165473ce9311e2034c58fc5b8b14978b6ee92d7a00f846c validators=2 committed=2
+2022-09-06T19:00:00.733+0700 [INFO]  polygon.ibft.consensus: sequence done: height=640
+2022-09-06T19:00:00.733+0700 [INFO]  polygon.ibft.consensus: sequence started: height=641
+2022-09-06T19:00:00.733+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:00.734+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:02.738+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:02.739+0700 [INFO]  polygon.ibft: build block: number=641 txs=0
+2022-09-06T19:00:02.752+0700 [INFO]  polygon.blockchain: new block: number=641 txs=0 hash=0x9152f8301da032a3e3956a8d5f1c0128c59b628539211358308f13f93f6f7d9b parent=0xf6a27b45621a18f9d165473ce9311e2034c58fc5b8b14978b6ee92d7a00f846c generation_time_in_seconds=2
+2022-09-06T19:00:02.752+0700 [INFO]  polygon.ibft: block committed: number=641 hash=0x9152f8301da032a3e3956a8d5f1c0128c59b628539211358308f13f93f6f7d9b validators=2 committed=2
+2022-09-06T19:00:02.753+0700 [INFO]  polygon.ibft.consensus: sequence done: height=641
+2022-09-06T19:00:02.753+0700 [INFO]  polygon.ibft.consensus: sequence started: height=642
+2022-09-06T19:00:02.753+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:04.767+0700 [INFO]  polygon.blockchain: new block: number=642 txs=0 hash=0x7bf3411cd6549044a685c864ad9448fec865c4da78f2c072318006485e999f35 parent=0x9152f8301da032a3e3956a8d5f1c0128c59b628539211358308f13f93f6f7d9b generation_time_in_seconds=2
+2022-09-06T19:00:04.767+0700 [INFO]  polygon.ibft: block committed: number=642 hash=0x7bf3411cd6549044a685c864ad9448fec865c4da78f2c072318006485e999f35 validators=2 committed=2
+2022-09-06T19:00:04.767+0700 [INFO]  polygon.ibft.consensus: sequence done: height=642
+2022-09-06T19:00:04.767+0700 [INFO]  polygon.ibft.consensus: sequence started: height=643
+2022-09-06T19:00:04.767+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:04.767+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:06.771+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:06.773+0700 [INFO]  polygon.ibft: build block: number=643 txs=0
+2022-09-06T19:00:06.790+0700 [INFO]  polygon.blockchain: new block: number=643 txs=0 hash=0xf45c905788c078b8779796f9e718aa82b67f23805f775fb49017c508441681ee parent=0x7bf3411cd6549044a685c864ad9448fec865c4da78f2c072318006485e999f35 generation_time_in_seconds=2
+2022-09-06T19:00:06.790+0700 [INFO]  polygon.ibft: block committed: number=643 hash=0xf45c905788c078b8779796f9e718aa82b67f23805f775fb49017c508441681ee validators=2 committed=2
+2022-09-06T19:00:06.790+0700 [INFO]  polygon.ibft.consensus: sequence done: height=643
+2022-09-06T19:00:06.790+0700 [INFO]  polygon.ibft.consensus: sequence started: height=644
+2022-09-06T19:00:06.790+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:08.804+0700 [INFO]  polygon.blockchain: new block: number=644 txs=0 hash=0x8f0b6daf4ded3c58f1686db176e15429d3e3f38f6da6af297d0979e7ee37ed6b parent=0xf45c905788c078b8779796f9e718aa82b67f23805f775fb49017c508441681ee generation_time_in_seconds=2
+2022-09-06T19:00:08.804+0700 [INFO]  polygon.ibft: block committed: number=644 hash=0x8f0b6daf4ded3c58f1686db176e15429d3e3f38f6da6af297d0979e7ee37ed6b validators=2 committed=2
+2022-09-06T19:00:08.804+0700 [INFO]  polygon.ibft.consensus: sequence done: height=644
+2022-09-06T19:00:08.804+0700 [INFO]  polygon.ibft.consensus: sequence started: height=645
+2022-09-06T19:00:08.804+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:08.804+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:10.805+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:10.808+0700 [INFO]  polygon.ibft: build block: number=645 txs=0
+2022-09-06T19:00:10.827+0700 [INFO]  polygon.blockchain: new block: number=645 txs=0 hash=0xa5ed52e10bc4c570357a80467de1d19a15699b2c58892f14b10dcf909537c064 parent=0x8f0b6daf4ded3c58f1686db176e15429d3e3f38f6da6af297d0979e7ee37ed6b generation_time_in_seconds=2
+2022-09-06T19:00:10.827+0700 [INFO]  polygon.ibft: block committed: number=645 hash=0xa5ed52e10bc4c570357a80467de1d19a15699b2c58892f14b10dcf909537c064 validators=2 committed=2
+2022-09-06T19:00:10.827+0700 [INFO]  polygon.ibft.consensus: sequence done: height=645
+2022-09-06T19:00:10.828+0700 [INFO]  polygon.ibft.consensus: sequence started: height=646
+2022-09-06T19:00:10.828+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:12.840+0700 [INFO]  polygon.blockchain: new block: number=646 txs=0 hash=0xfdb46595eab93162e4a3cacd8dbbc13220fe47558d92c5d8692aadb987c8d502 parent=0xa5ed52e10bc4c570357a80467de1d19a15699b2c58892f14b10dcf909537c064 generation_time_in_seconds=2
+2022-09-06T19:00:12.840+0700 [INFO]  polygon.ibft: block committed: number=646 hash=0xfdb46595eab93162e4a3cacd8dbbc13220fe47558d92c5d8692aadb987c8d502 validators=2 committed=2
+2022-09-06T19:00:12.840+0700 [INFO]  polygon.ibft.consensus: sequence done: height=646
+2022-09-06T19:00:12.840+0700 [INFO]  polygon.ibft.consensus: sequence started: height=647
+2022-09-06T19:00:12.840+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:12.841+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:14.843+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:14.844+0700 [INFO]  polygon.ibft: build block: number=647 txs=0
+2022-09-06T19:00:14.851+0700 [INFO]  polygon.blockchain: new block: number=647 txs=0 hash=0x984de54e2ecddc79464fefa7aa196f1aab842b3aff5558a34f6e24d7d1f5b348 parent=0xfdb46595eab93162e4a3cacd8dbbc13220fe47558d92c5d8692aadb987c8d502 generation_time_in_seconds=2
+2022-09-06T19:00:14.851+0700 [INFO]  polygon.ibft: block committed: number=647 hash=0x984de54e2ecddc79464fefa7aa196f1aab842b3aff5558a34f6e24d7d1f5b348 validators=2 committed=2
+2022-09-06T19:00:14.851+0700 [INFO]  polygon.ibft.consensus: sequence done: height=647
+2022-09-06T19:00:14.851+0700 [INFO]  polygon.ibft.consensus: sequence started: height=648
+2022-09-06T19:00:14.851+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:16.862+0700 [INFO]  polygon.blockchain: new block: number=648 txs=0 hash=0x42cbeb82eb3dc50a276020aed7b1df60d9ed6ad1106760604f9272899695a5e6 parent=0x984de54e2ecddc79464fefa7aa196f1aab842b3aff5558a34f6e24d7d1f5b348 generation_time_in_seconds=2
+2022-09-06T19:00:16.862+0700 [INFO]  polygon.ibft: block committed: number=648 hash=0x42cbeb82eb3dc50a276020aed7b1df60d9ed6ad1106760604f9272899695a5e6 validators=2 committed=2
+2022-09-06T19:00:16.863+0700 [INFO]  polygon.ibft.consensus: sequence done: height=648
+2022-09-06T19:00:16.863+0700 [INFO]  polygon.ibft.consensus: sequence started: height=649
+2022-09-06T19:00:16.863+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:16.863+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:18.864+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:18.866+0700 [INFO]  polygon.ibft: build block: number=649 txs=0
+2022-09-06T19:00:18.894+0700 [INFO]  polygon.blockchain: new block: number=649 txs=0 hash=0x40578443dc7d1d510f00c37c1c9cb0269743412452e67af5ee974893af9dfac8 parent=0x42cbeb82eb3dc50a276020aed7b1df60d9ed6ad1106760604f9272899695a5e6 generation_time_in_seconds=2
+2022-09-06T19:00:18.894+0700 [INFO]  polygon.ibft: block committed: number=649 hash=0x40578443dc7d1d510f00c37c1c9cb0269743412452e67af5ee974893af9dfac8 validators=2 committed=2
+2022-09-06T19:00:18.894+0700 [INFO]  polygon.ibft.consensus: sequence done: height=649
+2022-09-06T19:00:18.894+0700 [INFO]  polygon.ibft.consensus: sequence started: height=650
+2022-09-06T19:00:18.894+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:20.917+0700 [INFO]  polygon.blockchain: new block: number=650 txs=0 hash=0x57d6c26173fc7e00cf37508837defe6fb315fb02dbf0dce267bb397286a2cab1 parent=0x40578443dc7d1d510f00c37c1c9cb0269743412452e67af5ee974893af9dfac8 generation_time_in_seconds=2
+2022-09-06T19:00:20.917+0700 [INFO]  polygon.ibft: block committed: number=650 hash=0x57d6c26173fc7e00cf37508837defe6fb315fb02dbf0dce267bb397286a2cab1 validators=2 committed=2
+2022-09-06T19:00:20.918+0700 [INFO]  polygon.ibft.consensus: sequence done: height=650
+2022-09-06T19:00:20.918+0700 [INFO]  polygon.ibft.consensus: sequence started: height=651
+2022-09-06T19:00:20.918+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:20.919+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:22.923+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:22.924+0700 [INFO]  polygon.ibft: build block: number=651 txs=0
+2022-09-06T19:00:22.932+0700 [INFO]  polygon.blockchain: new block: number=651 txs=0 hash=0xbd0b87fb5e89954ce0af679f54fc7887f62cd9d8844351a8fcdde738059df0ab parent=0x57d6c26173fc7e00cf37508837defe6fb315fb02dbf0dce267bb397286a2cab1 generation_time_in_seconds=2
+2022-09-06T19:00:22.932+0700 [INFO]  polygon.ibft: block committed: number=651 hash=0xbd0b87fb5e89954ce0af679f54fc7887f62cd9d8844351a8fcdde738059df0ab validators=2 committed=2
+2022-09-06T19:00:22.932+0700 [INFO]  polygon.ibft.consensus: sequence done: height=651
+2022-09-06T19:00:22.932+0700 [INFO]  polygon.ibft.consensus: sequence started: height=652
+2022-09-06T19:00:22.932+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:24.951+0700 [INFO]  polygon.blockchain: new block: number=652 txs=0 hash=0x2c01c3d63410e3d2a3f84c9e86cf98aec8932faa328c3b0255d656e309baaad0 parent=0xbd0b87fb5e89954ce0af679f54fc7887f62cd9d8844351a8fcdde738059df0ab generation_time_in_seconds=2
+2022-09-06T19:00:24.951+0700 [INFO]  polygon.ibft: block committed: number=652 hash=0x2c01c3d63410e3d2a3f84c9e86cf98aec8932faa328c3b0255d656e309baaad0 validators=2 committed=2
+2022-09-06T19:00:24.952+0700 [INFO]  polygon.ibft.consensus: sequence done: height=652
+2022-09-06T19:00:24.952+0700 [INFO]  polygon.ibft.consensus: sequence started: height=653
+2022-09-06T19:00:24.952+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:24.952+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:26.953+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:26.954+0700 [INFO]  polygon.ibft: build block: number=653 txs=0
+2022-09-06T19:00:26.964+0700 [INFO]  polygon.blockchain: new block: number=653 txs=0 hash=0x3fd70a670ec08ac5a61790188280f614a6b5342cc8942d9946c77421090f1f62 parent=0x2c01c3d63410e3d2a3f84c9e86cf98aec8932faa328c3b0255d656e309baaad0 generation_time_in_seconds=2
+2022-09-06T19:00:26.964+0700 [INFO]  polygon.ibft: block committed: number=653 hash=0x3fd70a670ec08ac5a61790188280f614a6b5342cc8942d9946c77421090f1f62 validators=2 committed=2
+2022-09-06T19:00:26.964+0700 [INFO]  polygon.ibft.consensus: sequence done: height=653
+2022-09-06T19:00:26.964+0700 [INFO]  polygon.ibft.consensus: sequence started: height=654
+2022-09-06T19:00:26.964+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:28.975+0700 [INFO]  polygon.blockchain: new block: number=654 txs=0 hash=0xe1a1f54b2444419c8a20cec0ad65382ef4f040d106573e7a324b9cfe553521d6 parent=0x3fd70a670ec08ac5a61790188280f614a6b5342cc8942d9946c77421090f1f62 generation_time_in_seconds=2
+2022-09-06T19:00:28.975+0700 [INFO]  polygon.ibft: block committed: number=654 hash=0xe1a1f54b2444419c8a20cec0ad65382ef4f040d106573e7a324b9cfe553521d6 validators=2 committed=2
+2022-09-06T19:00:28.975+0700 [INFO]  polygon.ibft.consensus: sequence done: height=654
+2022-09-06T19:00:28.976+0700 [INFO]  polygon.ibft.consensus: sequence started: height=655
+2022-09-06T19:00:28.976+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:28.976+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:30.980+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:30.982+0700 [INFO]  polygon.ibft: build block: number=655 txs=0
+2022-09-06T19:00:30.999+0700 [INFO]  polygon.blockchain: new block: number=655 txs=0 hash=0x3b3cdd13f0d211614cad9448e828312fa71246b1f6b5f7c1ab664be5e1bea1c6 parent=0xe1a1f54b2444419c8a20cec0ad65382ef4f040d106573e7a324b9cfe553521d6 generation_time_in_seconds=2
+2022-09-06T19:00:30.999+0700 [INFO]  polygon.ibft: block committed: number=655 hash=0x3b3cdd13f0d211614cad9448e828312fa71246b1f6b5f7c1ab664be5e1bea1c6 validators=2 committed=2
+2022-09-06T19:00:30.999+0700 [INFO]  polygon.ibft.consensus: sequence done: height=655
+2022-09-06T19:00:30.999+0700 [INFO]  polygon.ibft.consensus: sequence started: height=656
+2022-09-06T19:00:30.999+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:33.006+0700 [INFO]  polygon.blockchain: new block: number=656 txs=0 hash=0x66194958b18361938021f8e1b11e0d9b2cb4bd33ca94e7d647baeee5312cd45b parent=0x3b3cdd13f0d211614cad9448e828312fa71246b1f6b5f7c1ab664be5e1bea1c6 generation_time_in_seconds=2
+2022-09-06T19:00:33.007+0700 [INFO]  polygon.ibft: block committed: number=656 hash=0x66194958b18361938021f8e1b11e0d9b2cb4bd33ca94e7d647baeee5312cd45b validators=2 committed=2
+2022-09-06T19:00:33.007+0700 [INFO]  polygon.ibft.consensus: sequence done: height=656
+2022-09-06T19:00:33.007+0700 [INFO]  polygon.ibft.consensus: sequence started: height=657
+2022-09-06T19:00:33.007+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:33.008+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:35.008+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:35.009+0700 [INFO]  polygon.ibft: build block: number=657 txs=0
+2022-09-06T19:00:35.020+0700 [INFO]  polygon.blockchain: new block: number=657 txs=0 hash=0x435c39b909f39cc4d81e022a464710d4533fa03c4fb7b332e9c667f8e46111d3 parent=0x66194958b18361938021f8e1b11e0d9b2cb4bd33ca94e7d647baeee5312cd45b generation_time_in_seconds=3
+2022-09-06T19:00:35.020+0700 [INFO]  polygon.ibft: block committed: number=657 hash=0x435c39b909f39cc4d81e022a464710d4533fa03c4fb7b332e9c667f8e46111d3 validators=2 committed=2
+2022-09-06T19:00:35.020+0700 [INFO]  polygon.ibft.consensus: sequence done: height=657
+2022-09-06T19:00:35.020+0700 [INFO]  polygon.ibft.consensus: sequence started: height=658
+2022-09-06T19:00:35.020+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:37.034+0700 [INFO]  polygon.blockchain: new block: number=658 txs=0 hash=0x016617a98368033850f514e7ae9519c0205e52a239c14e86b788df4199eb4590 parent=0x435c39b909f39cc4d81e022a464710d4533fa03c4fb7b332e9c667f8e46111d3 generation_time_in_seconds=2
+2022-09-06T19:00:37.034+0700 [INFO]  polygon.ibft: block committed: number=658 hash=0x016617a98368033850f514e7ae9519c0205e52a239c14e86b788df4199eb4590 validators=2 committed=2
+2022-09-06T19:00:37.035+0700 [INFO]  polygon.ibft.consensus: sequence done: height=658
+2022-09-06T19:00:37.035+0700 [INFO]  polygon.ibft.consensus: sequence started: height=659
+2022-09-06T19:00:37.035+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:37.035+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:39.039+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:39.040+0700 [INFO]  polygon.ibft: build block: number=659 txs=0
+2022-09-06T19:00:39.049+0700 [INFO]  polygon.blockchain: new block: number=659 txs=0 hash=0xbafaecc8f311cce04636ea95c2d9ff46ad8d6bdf9d47daf29e0c6ba15c01e60f parent=0x016617a98368033850f514e7ae9519c0205e52a239c14e86b788df4199eb4590 generation_time_in_seconds=2
+2022-09-06T19:00:39.049+0700 [INFO]  polygon.ibft: block committed: number=659 hash=0xbafaecc8f311cce04636ea95c2d9ff46ad8d6bdf9d47daf29e0c6ba15c01e60f validators=2 committed=2
+2022-09-06T19:00:39.050+0700 [INFO]  polygon.ibft.consensus: sequence done: height=659
+2022-09-06T19:00:39.050+0700 [INFO]  polygon.ibft.consensus: sequence started: height=660
+2022-09-06T19:00:39.050+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:41.071+0700 [INFO]  polygon.blockchain: new block: number=660 txs=0 hash=0x26d65a240fcb2fb66dd21a51221020b91b874ea7cf51bf2758f532cf1da0f4b4 parent=0xbafaecc8f311cce04636ea95c2d9ff46ad8d6bdf9d47daf29e0c6ba15c01e60f generation_time_in_seconds=2
+2022-09-06T19:00:41.071+0700 [INFO]  polygon.ibft: block committed: number=660 hash=0x26d65a240fcb2fb66dd21a51221020b91b874ea7cf51bf2758f532cf1da0f4b4 validators=2 committed=2
+2022-09-06T19:00:41.071+0700 [INFO]  polygon.ibft.consensus: sequence done: height=660
+2022-09-06T19:00:41.071+0700 [INFO]  polygon.ibft.consensus: sequence started: height=661
+2022-09-06T19:00:41.071+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:41.071+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:43.076+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:43.077+0700 [INFO]  polygon.ibft: build block: number=661 txs=0
+2022-09-06T19:00:43.089+0700 [INFO]  polygon.blockchain: new block: number=661 txs=0 hash=0x1b808ee26b411fd8206e41937e4b543be4b2fa4b9d360b33b1623cdefcf7ca94 parent=0x26d65a240fcb2fb66dd21a51221020b91b874ea7cf51bf2758f532cf1da0f4b4 generation_time_in_seconds=2
+2022-09-06T19:00:43.089+0700 [INFO]  polygon.ibft: block committed: number=661 hash=0x1b808ee26b411fd8206e41937e4b543be4b2fa4b9d360b33b1623cdefcf7ca94 validators=2 committed=2
+2022-09-06T19:00:43.089+0700 [INFO]  polygon.ibft.consensus: sequence done: height=661
+2022-09-06T19:00:43.089+0700 [INFO]  polygon.ibft.consensus: sequence started: height=662
+2022-09-06T19:00:43.089+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:45.117+0700 [INFO]  polygon.blockchain: new block: number=662 txs=0 hash=0x0c11c4af40868c6cb6b7a6d39dcc71a09539ec0dd60290c55fa56e14020ae693 parent=0x1b808ee26b411fd8206e41937e4b543be4b2fa4b9d360b33b1623cdefcf7ca94 generation_time_in_seconds=2
+2022-09-06T19:00:45.117+0700 [INFO]  polygon.ibft: block committed: number=662 hash=0x0c11c4af40868c6cb6b7a6d39dcc71a09539ec0dd60290c55fa56e14020ae693 validators=2 committed=2
+2022-09-06T19:00:45.117+0700 [INFO]  polygon.ibft.consensus: sequence done: height=662
+2022-09-06T19:00:45.117+0700 [INFO]  polygon.ibft.consensus: sequence started: height=663
+2022-09-06T19:00:45.117+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:45.117+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:45.119+0700 [INFO]  polygon.blockchain: block already inserted: block=662 source=syncer
+2022-09-06T19:00:47.120+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:47.121+0700 [INFO]  polygon.ibft: build block: number=663 txs=0
+2022-09-06T19:00:47.137+0700 [INFO]  polygon.blockchain: new block: number=663 txs=0 hash=0xfc25418b584dbce2d0030ed3bd030288dfc71dc7789a0963dfe5cda67105e439 parent=0x0c11c4af40868c6cb6b7a6d39dcc71a09539ec0dd60290c55fa56e14020ae693 generation_time_in_seconds=2
+2022-09-06T19:00:47.137+0700 [INFO]  polygon.ibft: block committed: number=663 hash=0xfc25418b584dbce2d0030ed3bd030288dfc71dc7789a0963dfe5cda67105e439 validators=2 committed=2
+2022-09-06T19:00:47.137+0700 [INFO]  polygon.ibft.consensus: sequence done: height=663
+2022-09-06T19:00:47.137+0700 [INFO]  polygon.ibft.consensus: sequence started: height=664
+2022-09-06T19:00:47.137+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:49.158+0700 [INFO]  polygon.blockchain: new block: number=664 txs=0 hash=0xa65a38f47abdf98506d201fb44c47c81010be8f9aceaa2fa665e9b6bf4312a20 parent=0xfc25418b584dbce2d0030ed3bd030288dfc71dc7789a0963dfe5cda67105e439 generation_time_in_seconds=2
+2022-09-06T19:00:49.158+0700 [INFO]  polygon.ibft: block committed: number=664 hash=0xa65a38f47abdf98506d201fb44c47c81010be8f9aceaa2fa665e9b6bf4312a20 validators=2 committed=2
+2022-09-06T19:00:49.159+0700 [INFO]  polygon.ibft.consensus: sequence done: height=664
+2022-09-06T19:00:49.159+0700 [INFO]  polygon.ibft.consensus: sequence started: height=665
+2022-09-06T19:00:49.159+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:49.159+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:51.162+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:51.164+0700 [INFO]  polygon.ibft: build block: number=665 txs=0
+2022-09-06T19:00:51.182+0700 [INFO]  polygon.blockchain: new block: number=665 txs=0 hash=0x2665ce26bdd45434acc7404bd478c7c0f9f39cfa4b645db87108effe4452b978 parent=0xa65a38f47abdf98506d201fb44c47c81010be8f9aceaa2fa665e9b6bf4312a20 generation_time_in_seconds=2
+2022-09-06T19:00:51.182+0700 [INFO]  polygon.ibft: block committed: number=665 hash=0x2665ce26bdd45434acc7404bd478c7c0f9f39cfa4b645db87108effe4452b978 validators=2 committed=2
+2022-09-06T19:00:51.182+0700 [INFO]  polygon.ibft.consensus: sequence done: height=665
+2022-09-06T19:00:51.182+0700 [INFO]  polygon.ibft.consensus: sequence started: height=666
+2022-09-06T19:00:51.182+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:53.195+0700 [INFO]  polygon.blockchain: new block: number=666 txs=0 hash=0xa6677e2c775b9b00ee905ba75488c679237acd76396a1055c04d2987592c424c parent=0x2665ce26bdd45434acc7404bd478c7c0f9f39cfa4b645db87108effe4452b978 generation_time_in_seconds=2
+2022-09-06T19:00:53.196+0700 [INFO]  polygon.ibft: block committed: number=666 hash=0xa6677e2c775b9b00ee905ba75488c679237acd76396a1055c04d2987592c424c validators=2 committed=2
+2022-09-06T19:00:53.196+0700 [INFO]  polygon.ibft.consensus: sequence done: height=666
+2022-09-06T19:00:53.196+0700 [INFO]  polygon.ibft.consensus: sequence started: height=667
+2022-09-06T19:00:53.196+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:53.196+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:55.199+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:55.200+0700 [INFO]  polygon.ibft: build block: number=667 txs=0
+2022-09-06T19:00:55.208+0700 [INFO]  polygon.blockchain: new block: number=667 txs=0 hash=0xcbeee0eff68310f0bc1f9a9b4c56ec2a8f18b2bbcac6212cb197809502335d0d parent=0xa6677e2c775b9b00ee905ba75488c679237acd76396a1055c04d2987592c424c generation_time_in_seconds=2
+2022-09-06T19:00:55.208+0700 [INFO]  polygon.ibft: block committed: number=667 hash=0xcbeee0eff68310f0bc1f9a9b4c56ec2a8f18b2bbcac6212cb197809502335d0d validators=2 committed=2
+2022-09-06T19:00:55.209+0700 [INFO]  polygon.ibft.consensus: sequence done: height=667
+2022-09-06T19:00:55.209+0700 [INFO]  polygon.ibft.consensus: sequence started: height=668
+2022-09-06T19:00:55.209+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:57.225+0700 [INFO]  polygon.blockchain: new block: number=668 txs=0 hash=0x717a2554466a9c0b3fc6dbf24a364a664c1747bbe5e55c74e41bc2e4f049dec5 parent=0xcbeee0eff68310f0bc1f9a9b4c56ec2a8f18b2bbcac6212cb197809502335d0d generation_time_in_seconds=2
+2022-09-06T19:00:57.225+0700 [INFO]  polygon.ibft: block committed: number=668 hash=0x717a2554466a9c0b3fc6dbf24a364a664c1747bbe5e55c74e41bc2e4f049dec5 validators=2 committed=2
+2022-09-06T19:00:57.225+0700 [INFO]  polygon.ibft.consensus: sequence done: height=668
+2022-09-06T19:00:57.225+0700 [INFO]  polygon.ibft.consensus: sequence started: height=669
+2022-09-06T19:00:57.225+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:00:57.226+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:00:59.238+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:00:59.239+0700 [INFO]  polygon.ibft: build block: number=669 txs=0
+2022-09-06T19:00:59.255+0700 [INFO]  polygon.blockchain: new block: number=669 txs=0 hash=0x6a0ced81bfa4bf18373d14f0d1396fc595249e837a93ea9880dca5b91b34397b parent=0x717a2554466a9c0b3fc6dbf24a364a664c1747bbe5e55c74e41bc2e4f049dec5 generation_time_in_seconds=2
+2022-09-06T19:00:59.255+0700 [INFO]  polygon.ibft: block committed: number=669 hash=0x6a0ced81bfa4bf18373d14f0d1396fc595249e837a93ea9880dca5b91b34397b validators=2 committed=2
+2022-09-06T19:00:59.256+0700 [INFO]  polygon.ibft.consensus: sequence done: height=669
+2022-09-06T19:00:59.256+0700 [INFO]  polygon.ibft.consensus: sequence started: height=670
+2022-09-06T19:00:59.256+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:01.272+0700 [INFO]  polygon.blockchain: new block: number=670 txs=0 hash=0x3dfcc8f347dbd9dffab3541b5d4b06cd6818b09d3b1b0b7cb45b21897d6fdaff parent=0x6a0ced81bfa4bf18373d14f0d1396fc595249e837a93ea9880dca5b91b34397b generation_time_in_seconds=2
+2022-09-06T19:01:01.272+0700 [INFO]  polygon.ibft: block committed: number=670 hash=0x3dfcc8f347dbd9dffab3541b5d4b06cd6818b09d3b1b0b7cb45b21897d6fdaff validators=2 committed=2
+2022-09-06T19:01:01.272+0700 [INFO]  polygon.ibft.consensus: sequence done: height=670
+2022-09-06T19:01:01.272+0700 [INFO]  polygon.ibft.consensus: sequence started: height=671
+2022-09-06T19:01:01.272+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:01.273+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:03.275+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:03.276+0700 [INFO]  polygon.ibft: build block: number=671 txs=0
+2022-09-06T19:01:03.283+0700 [INFO]  polygon.blockchain: new block: number=671 txs=0 hash=0x9ef40bfd367831e15fe55231fd3d83719b97eb993c0912cf27c3534755cb25d1 parent=0x3dfcc8f347dbd9dffab3541b5d4b06cd6818b09d3b1b0b7cb45b21897d6fdaff generation_time_in_seconds=2
+2022-09-06T19:01:03.283+0700 [INFO]  polygon.ibft: block committed: number=671 hash=0x9ef40bfd367831e15fe55231fd3d83719b97eb993c0912cf27c3534755cb25d1 validators=2 committed=2
+2022-09-06T19:01:03.283+0700 [INFO]  polygon.ibft.consensus: sequence done: height=671
+2022-09-06T19:01:03.283+0700 [INFO]  polygon.ibft.consensus: sequence started: height=672
+2022-09-06T19:01:03.283+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:05.303+0700 [INFO]  polygon.blockchain: new block: number=672 txs=0 hash=0x229cd8bceb5b15f5841a606dd7e779c88822a7ebb73b9a7c3c48da7493726f55 parent=0x9ef40bfd367831e15fe55231fd3d83719b97eb993c0912cf27c3534755cb25d1 generation_time_in_seconds=2
+2022-09-06T19:01:05.303+0700 [INFO]  polygon.ibft: block committed: number=672 hash=0x229cd8bceb5b15f5841a606dd7e779c88822a7ebb73b9a7c3c48da7493726f55 validators=2 committed=2
+2022-09-06T19:01:05.303+0700 [INFO]  polygon.ibft.consensus: sequence done: height=672
+2022-09-06T19:01:05.303+0700 [INFO]  polygon.ibft.consensus: sequence started: height=673
+2022-09-06T19:01:05.303+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:05.303+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:07.307+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:07.308+0700 [INFO]  polygon.ibft: build block: number=673 txs=0
+2022-09-06T19:01:07.322+0700 [INFO]  polygon.blockchain: new block: number=673 txs=0 hash=0xa7c444510fb9ac8eac6f28ae8384575e7d8927fd41057c4f395737ad1481de73 parent=0x229cd8bceb5b15f5841a606dd7e779c88822a7ebb73b9a7c3c48da7493726f55 generation_time_in_seconds=2
+2022-09-06T19:01:07.322+0700 [INFO]  polygon.ibft: block committed: number=673 hash=0xa7c444510fb9ac8eac6f28ae8384575e7d8927fd41057c4f395737ad1481de73 validators=2 committed=2
+2022-09-06T19:01:07.322+0700 [INFO]  polygon.ibft.consensus: sequence done: height=673
+2022-09-06T19:01:07.323+0700 [INFO]  polygon.ibft.consensus: sequence started: height=674
+2022-09-06T19:01:07.323+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:09.346+0700 [INFO]  polygon.blockchain: new block: number=674 txs=0 hash=0x733f0c89df8982a063c44390c14530c1db9947fa118dfb38eb2225b01fc9d3d4 parent=0xa7c444510fb9ac8eac6f28ae8384575e7d8927fd41057c4f395737ad1481de73 generation_time_in_seconds=2
+2022-09-06T19:01:09.346+0700 [INFO]  polygon.ibft: block committed: number=674 hash=0x733f0c89df8982a063c44390c14530c1db9947fa118dfb38eb2225b01fc9d3d4 validators=2 committed=2
+2022-09-06T19:01:09.346+0700 [INFO]  polygon.ibft.consensus: sequence done: height=674
+2022-09-06T19:01:09.346+0700 [INFO]  polygon.ibft.consensus: sequence started: height=675
+2022-09-06T19:01:09.346+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:09.347+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:11.350+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:11.351+0700 [INFO]  polygon.ibft: build block: number=675 txs=0
+2022-09-06T19:01:11.364+0700 [INFO]  polygon.blockchain: new block: number=675 txs=0 hash=0x5d877d7e785a9f373c426004ccee477a5dc703d21317a23b1a45e1d71b1d5e77 parent=0x733f0c89df8982a063c44390c14530c1db9947fa118dfb38eb2225b01fc9d3d4 generation_time_in_seconds=2
+2022-09-06T19:01:11.364+0700 [INFO]  polygon.ibft: block committed: number=675 hash=0x5d877d7e785a9f373c426004ccee477a5dc703d21317a23b1a45e1d71b1d5e77 validators=2 committed=2
+2022-09-06T19:01:11.365+0700 [INFO]  polygon.ibft.consensus: sequence done: height=675
+2022-09-06T19:01:11.365+0700 [INFO]  polygon.ibft.consensus: sequence started: height=676
+2022-09-06T19:01:11.365+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:13.386+0700 [INFO]  polygon.blockchain: new block: number=676 txs=0 hash=0xa52b23449d50217cd9b995dc99a55d4a9d70d0521e017a4dbb43620403f9bd63 parent=0x5d877d7e785a9f373c426004ccee477a5dc703d21317a23b1a45e1d71b1d5e77 generation_time_in_seconds=2
+2022-09-06T19:01:13.386+0700 [INFO]  polygon.ibft: block committed: number=676 hash=0xa52b23449d50217cd9b995dc99a55d4a9d70d0521e017a4dbb43620403f9bd63 validators=2 committed=2
+2022-09-06T19:01:13.386+0700 [INFO]  polygon.ibft.consensus: sequence done: height=676
+2022-09-06T19:01:13.386+0700 [INFO]  polygon.ibft.consensus: sequence started: height=677
+2022-09-06T19:01:13.386+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:13.387+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:15.391+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:15.393+0700 [INFO]  polygon.ibft: build block: number=677 txs=0
+2022-09-06T19:01:15.409+0700 [INFO]  polygon.blockchain: new block: number=677 txs=0 hash=0x942f271a9094a460b6b6f84c6d0715f978938bc7255a313f62fdea521d367024 parent=0xa52b23449d50217cd9b995dc99a55d4a9d70d0521e017a4dbb43620403f9bd63 generation_time_in_seconds=2
+2022-09-06T19:01:15.409+0700 [INFO]  polygon.ibft: block committed: number=677 hash=0x942f271a9094a460b6b6f84c6d0715f978938bc7255a313f62fdea521d367024 validators=2 committed=2
+2022-09-06T19:01:15.410+0700 [INFO]  polygon.ibft.consensus: sequence done: height=677
+2022-09-06T19:01:15.410+0700 [INFO]  polygon.ibft.consensus: sequence started: height=678
+2022-09-06T19:01:15.410+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:17.421+0700 [INFO]  polygon.blockchain: new block: number=678 txs=0 hash=0xc4d23d3efffeb084d0aabcede618d88a8fc6606d780bbeaa6cf8c5eac87fd46b parent=0x942f271a9094a460b6b6f84c6d0715f978938bc7255a313f62fdea521d367024 generation_time_in_seconds=2
+2022-09-06T19:01:17.421+0700 [INFO]  polygon.ibft: block committed: number=678 hash=0xc4d23d3efffeb084d0aabcede618d88a8fc6606d780bbeaa6cf8c5eac87fd46b validators=2 committed=2
+2022-09-06T19:01:17.422+0700 [INFO]  polygon.ibft.consensus: sequence done: height=678
+2022-09-06T19:01:17.422+0700 [INFO]  polygon.ibft.consensus: sequence started: height=679
+2022-09-06T19:01:17.422+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:17.422+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:19.425+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:19.426+0700 [INFO]  polygon.ibft: build block: number=679 txs=0
+2022-09-06T19:01:19.435+0700 [INFO]  polygon.blockchain: new block: number=679 txs=0 hash=0xc954a73cff745eb38627dbc2b6453be3490af6e6fb34cb25cdceca9790afae6f parent=0xc4d23d3efffeb084d0aabcede618d88a8fc6606d780bbeaa6cf8c5eac87fd46b generation_time_in_seconds=2
+2022-09-06T19:01:19.435+0700 [INFO]  polygon.ibft: block committed: number=679 hash=0xc954a73cff745eb38627dbc2b6453be3490af6e6fb34cb25cdceca9790afae6f validators=2 committed=2
+2022-09-06T19:01:19.436+0700 [INFO]  polygon.ibft.consensus: sequence done: height=679
+2022-09-06T19:01:19.436+0700 [INFO]  polygon.ibft.consensus: sequence started: height=680
+2022-09-06T19:01:19.436+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:21.455+0700 [INFO]  polygon.blockchain: new block: number=680 txs=0 hash=0x8cc7857bfc6016aa2a02a99361d6eb4120f676027435cf44e535c6624497f1da parent=0xc954a73cff745eb38627dbc2b6453be3490af6e6fb34cb25cdceca9790afae6f generation_time_in_seconds=2
+2022-09-06T19:01:21.455+0700 [INFO]  polygon.ibft: block committed: number=680 hash=0x8cc7857bfc6016aa2a02a99361d6eb4120f676027435cf44e535c6624497f1da validators=2 committed=2
+2022-09-06T19:01:21.455+0700 [INFO]  polygon.ibft.consensus: sequence done: height=680
+2022-09-06T19:01:21.455+0700 [INFO]  polygon.ibft.consensus: sequence started: height=681
+2022-09-06T19:01:21.455+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:21.456+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:23.460+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:23.462+0700 [INFO]  polygon.ibft: build block: number=681 txs=0
+2022-09-06T19:01:23.477+0700 [INFO]  polygon.blockchain: new block: number=681 txs=0 hash=0x088673ba494b01fd5cbd52330e822ba742c8d76cbcfe855ab6b0a8044a2bae27 parent=0x8cc7857bfc6016aa2a02a99361d6eb4120f676027435cf44e535c6624497f1da generation_time_in_seconds=2
+2022-09-06T19:01:23.477+0700 [INFO]  polygon.ibft: block committed: number=681 hash=0x088673ba494b01fd5cbd52330e822ba742c8d76cbcfe855ab6b0a8044a2bae27 validators=2 committed=2
+2022-09-06T19:01:23.478+0700 [INFO]  polygon.ibft.consensus: sequence done: height=681
+2022-09-06T19:01:23.478+0700 [INFO]  polygon.ibft.consensus: sequence started: height=682
+2022-09-06T19:01:23.478+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:25.500+0700 [INFO]  polygon.blockchain: new block: number=682 txs=0 hash=0x18f3ccc0b26281fa8761744ff4a0eea29bf7312f3fe8b63e79cfe63c64366579 parent=0x088673ba494b01fd5cbd52330e822ba742c8d76cbcfe855ab6b0a8044a2bae27 generation_time_in_seconds=2
+2022-09-06T19:01:25.500+0700 [INFO]  polygon.ibft: block committed: number=682 hash=0x18f3ccc0b26281fa8761744ff4a0eea29bf7312f3fe8b63e79cfe63c64366579 validators=2 committed=2
+2022-09-06T19:01:25.500+0700 [INFO]  polygon.ibft.consensus: sequence done: height=682
+2022-09-06T19:01:25.500+0700 [INFO]  polygon.ibft.consensus: sequence started: height=683
+2022-09-06T19:01:25.500+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:25.501+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:27.504+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:27.505+0700 [INFO]  polygon.ibft: build block: number=683 txs=0
+2022-09-06T19:01:27.513+0700 [INFO]  polygon.blockchain: new block: number=683 txs=0 hash=0x7c80cdaf41c9936d82a57d43d19aee0984611733df44ce9add1e2103dcf3f48e parent=0x18f3ccc0b26281fa8761744ff4a0eea29bf7312f3fe8b63e79cfe63c64366579 generation_time_in_seconds=2
+2022-09-06T19:01:27.513+0700 [INFO]  polygon.ibft: block committed: number=683 hash=0x7c80cdaf41c9936d82a57d43d19aee0984611733df44ce9add1e2103dcf3f48e validators=2 committed=2
+2022-09-06T19:01:27.514+0700 [INFO]  polygon.ibft.consensus: sequence done: height=683
+2022-09-06T19:01:27.514+0700 [INFO]  polygon.ibft.consensus: sequence started: height=684
+2022-09-06T19:01:27.514+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:29.526+0700 [INFO]  polygon.blockchain: new block: number=684 txs=0 hash=0x90ca02ed091a4ae86b496fa86bee3f3652112b009f6ef525332183874c6655cb parent=0x7c80cdaf41c9936d82a57d43d19aee0984611733df44ce9add1e2103dcf3f48e generation_time_in_seconds=2
+2022-09-06T19:01:29.526+0700 [INFO]  polygon.ibft: block committed: number=684 hash=0x90ca02ed091a4ae86b496fa86bee3f3652112b009f6ef525332183874c6655cb validators=2 committed=2
+2022-09-06T19:01:29.527+0700 [INFO]  polygon.ibft.consensus: sequence done: height=684
+2022-09-06T19:01:29.527+0700 [INFO]  polygon.ibft.consensus: sequence started: height=685
+2022-09-06T19:01:29.527+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:29.527+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:31.531+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:31.532+0700 [INFO]  polygon.ibft: build block: number=685 txs=0
+2022-09-06T19:01:31.546+0700 [INFO]  polygon.blockchain: new block: number=685 txs=0 hash=0xd433ea7e53dc6c08ef2cbcdc5bc80064fefe1d4f1e3a36604a9ddd37aaea1526 parent=0x90ca02ed091a4ae86b496fa86bee3f3652112b009f6ef525332183874c6655cb generation_time_in_seconds=2
+2022-09-06T19:01:31.546+0700 [INFO]  polygon.ibft: block committed: number=685 hash=0xd433ea7e53dc6c08ef2cbcdc5bc80064fefe1d4f1e3a36604a9ddd37aaea1526 validators=2 committed=2
+2022-09-06T19:01:31.549+0700 [INFO]  polygon.ibft.consensus: sequence done: height=685
+2022-09-06T19:01:31.549+0700 [INFO]  polygon.ibft.consensus: sequence started: height=686
+2022-09-06T19:01:31.549+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:33.572+0700 [INFO]  polygon.blockchain: new block: number=686 txs=0 hash=0x85d8311b9f4144adc45878b469c54b528f44c33d143ad8e5f41070159072507b parent=0xd433ea7e53dc6c08ef2cbcdc5bc80064fefe1d4f1e3a36604a9ddd37aaea1526 generation_time_in_seconds=2
+2022-09-06T19:01:33.572+0700 [INFO]  polygon.ibft: block committed: number=686 hash=0x85d8311b9f4144adc45878b469c54b528f44c33d143ad8e5f41070159072507b validators=2 committed=2
+2022-09-06T19:01:33.572+0700 [INFO]  polygon.ibft.consensus: sequence done: height=686
+2022-09-06T19:01:33.572+0700 [INFO]  polygon.ibft.consensus: sequence started: height=687
+2022-09-06T19:01:33.572+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:33.572+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:35.576+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:35.577+0700 [INFO]  polygon.ibft: build block: number=687 txs=0
+2022-09-06T19:01:35.588+0700 [INFO]  polygon.blockchain: new block: number=687 txs=0 hash=0x2437f77ce569517c04fcab553b8a8e4d712ec80acfd6d9c9c40c7bcc2d0fd46e parent=0x85d8311b9f4144adc45878b469c54b528f44c33d143ad8e5f41070159072507b generation_time_in_seconds=2
+2022-09-06T19:01:35.588+0700 [INFO]  polygon.ibft: block committed: number=687 hash=0x2437f77ce569517c04fcab553b8a8e4d712ec80acfd6d9c9c40c7bcc2d0fd46e validators=2 committed=2
+2022-09-06T19:01:35.588+0700 [INFO]  polygon.ibft.consensus: sequence done: height=687
+2022-09-06T19:01:35.588+0700 [INFO]  polygon.ibft.consensus: sequence started: height=688
+2022-09-06T19:01:35.588+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:37.603+0700 [INFO]  polygon.blockchain: new block: number=688 txs=0 hash=0x3f3d1f20145ceac8498fe3c28c788e7a3a4736dfd49cb6a5d1a39f3ef15daeac parent=0x2437f77ce569517c04fcab553b8a8e4d712ec80acfd6d9c9c40c7bcc2d0fd46e generation_time_in_seconds=2
+2022-09-06T19:01:37.603+0700 [INFO]  polygon.ibft: block committed: number=688 hash=0x3f3d1f20145ceac8498fe3c28c788e7a3a4736dfd49cb6a5d1a39f3ef15daeac validators=2 committed=2
+2022-09-06T19:01:37.603+0700 [INFO]  polygon.ibft.consensus: sequence done: height=688
+2022-09-06T19:01:37.603+0700 [INFO]  polygon.ibft.consensus: sequence started: height=689
+2022-09-06T19:01:37.603+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:37.603+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:39.608+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:39.608+0700 [INFO]  polygon.ibft: build block: number=689 txs=0
+2022-09-06T19:01:39.616+0700 [INFO]  polygon.blockchain: new block: number=689 txs=0 hash=0x057eb7c85c50829eddda629a7fa2dd4d440f084a1c8dea15fe76236d4dd2693a parent=0x3f3d1f20145ceac8498fe3c28c788e7a3a4736dfd49cb6a5d1a39f3ef15daeac generation_time_in_seconds=2
+2022-09-06T19:01:39.616+0700 [INFO]  polygon.ibft: block committed: number=689 hash=0x057eb7c85c50829eddda629a7fa2dd4d440f084a1c8dea15fe76236d4dd2693a validators=2 committed=2
+2022-09-06T19:01:39.616+0700 [INFO]  polygon.ibft.consensus: sequence done: height=689
+2022-09-06T19:01:39.616+0700 [INFO]  polygon.ibft.consensus: sequence started: height=690
+2022-09-06T19:01:39.616+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:41.635+0700 [INFO]  polygon.blockchain: new block: number=690 txs=0 hash=0x8ea8071f0ae2caf1e36ee4ee281ba58e06bce6c7af98be588af82ca6a73c6aa5 parent=0x057eb7c85c50829eddda629a7fa2dd4d440f084a1c8dea15fe76236d4dd2693a generation_time_in_seconds=2
+2022-09-06T19:01:41.635+0700 [INFO]  polygon.ibft: block committed: number=690 hash=0x8ea8071f0ae2caf1e36ee4ee281ba58e06bce6c7af98be588af82ca6a73c6aa5 validators=2 committed=2
+2022-09-06T19:01:41.635+0700 [INFO]  polygon.ibft.consensus: sequence done: height=690
+2022-09-06T19:01:41.635+0700 [INFO]  polygon.ibft.consensus: sequence started: height=691
+2022-09-06T19:01:41.635+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:41.636+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:43.640+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:43.643+0700 [INFO]  polygon.ibft: build block: number=691 txs=0
+2022-09-06T19:01:43.660+0700 [INFO]  polygon.blockchain: new block: number=691 txs=0 hash=0x7a5b240074cfde3ae905aaf86e174357b96fe4ba41853d3f4f45821a18744044 parent=0x8ea8071f0ae2caf1e36ee4ee281ba58e06bce6c7af98be588af82ca6a73c6aa5 generation_time_in_seconds=2
+2022-09-06T19:01:43.660+0700 [INFO]  polygon.ibft: block committed: number=691 hash=0x7a5b240074cfde3ae905aaf86e174357b96fe4ba41853d3f4f45821a18744044 validators=2 committed=2
+2022-09-06T19:01:43.660+0700 [INFO]  polygon.ibft.consensus: sequence done: height=691
+2022-09-06T19:01:43.660+0700 [INFO]  polygon.ibft.consensus: sequence started: height=692
+2022-09-06T19:01:43.660+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:45.673+0700 [INFO]  polygon.blockchain: new block: number=692 txs=0 hash=0x4f97cdaa0d7d2760ac8024702973427488dd450f01a5e81f2933a1abb4ba9e42 parent=0x7a5b240074cfde3ae905aaf86e174357b96fe4ba41853d3f4f45821a18744044 generation_time_in_seconds=2
+2022-09-06T19:01:45.673+0700 [INFO]  polygon.ibft: block committed: number=692 hash=0x4f97cdaa0d7d2760ac8024702973427488dd450f01a5e81f2933a1abb4ba9e42 validators=2 committed=2
+2022-09-06T19:01:45.673+0700 [INFO]  polygon.ibft.consensus: sequence done: height=692
+2022-09-06T19:01:45.673+0700 [INFO]  polygon.ibft.consensus: sequence started: height=693
+2022-09-06T19:01:45.673+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:45.674+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:47.678+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:47.678+0700 [INFO]  polygon.ibft: build block: number=693 txs=0
+2022-09-06T19:01:47.686+0700 [INFO]  polygon.blockchain: new block: number=693 txs=0 hash=0xe06fad3966ca64a3da900244dad8383406c7cffe39d6c6ee17cbf1eae1d6d5a6 parent=0x4f97cdaa0d7d2760ac8024702973427488dd450f01a5e81f2933a1abb4ba9e42 generation_time_in_seconds=2
+2022-09-06T19:01:47.686+0700 [INFO]  polygon.ibft: block committed: number=693 hash=0xe06fad3966ca64a3da900244dad8383406c7cffe39d6c6ee17cbf1eae1d6d5a6 validators=2 committed=2
+2022-09-06T19:01:47.686+0700 [INFO]  polygon.ibft.consensus: sequence done: height=693
+2022-09-06T19:01:47.686+0700 [INFO]  polygon.ibft.consensus: sequence started: height=694
+2022-09-06T19:01:47.686+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:49.702+0700 [INFO]  polygon.blockchain: new block: number=694 txs=0 hash=0xd19ee99205dc35ede270569adf3d34b0642daf49c422d9cca154ca7660c92ac6 parent=0xe06fad3966ca64a3da900244dad8383406c7cffe39d6c6ee17cbf1eae1d6d5a6 generation_time_in_seconds=2
+2022-09-06T19:01:49.702+0700 [INFO]  polygon.ibft: block committed: number=694 hash=0xd19ee99205dc35ede270569adf3d34b0642daf49c422d9cca154ca7660c92ac6 validators=2 committed=2
+2022-09-06T19:01:49.702+0700 [INFO]  polygon.ibft.consensus: sequence done: height=694
+2022-09-06T19:01:49.702+0700 [INFO]  polygon.ibft.consensus: sequence started: height=695
+2022-09-06T19:01:49.702+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:49.703+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:51.706+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:51.707+0700 [INFO]  polygon.ibft: build block: number=695 txs=0
+2022-09-06T19:01:51.716+0700 [INFO]  polygon.blockchain: new block: number=695 txs=0 hash=0x8b48e1ff7685ec36b9d9227c99d5967d5e2e0b4b615748593b7abac63074231d parent=0xd19ee99205dc35ede270569adf3d34b0642daf49c422d9cca154ca7660c92ac6 generation_time_in_seconds=2
+2022-09-06T19:01:51.716+0700 [INFO]  polygon.ibft: block committed: number=695 hash=0x8b48e1ff7685ec36b9d9227c99d5967d5e2e0b4b615748593b7abac63074231d validators=2 committed=2
+2022-09-06T19:01:51.716+0700 [INFO]  polygon.ibft.consensus: sequence done: height=695
+2022-09-06T19:01:51.716+0700 [INFO]  polygon.ibft.consensus: sequence started: height=696
+2022-09-06T19:01:51.716+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:53.728+0700 [INFO]  polygon.blockchain: new block: number=696 txs=0 hash=0xb928c60d33eed98a0ae1a95527efb3e68096e5021feb175088d89dc2725ec54b parent=0x8b48e1ff7685ec36b9d9227c99d5967d5e2e0b4b615748593b7abac63074231d generation_time_in_seconds=2
+2022-09-06T19:01:53.728+0700 [INFO]  polygon.ibft: block committed: number=696 hash=0xb928c60d33eed98a0ae1a95527efb3e68096e5021feb175088d89dc2725ec54b validators=2 committed=2
+2022-09-06T19:01:53.728+0700 [INFO]  polygon.ibft.consensus: sequence done: height=696
+2022-09-06T19:01:53.728+0700 [INFO]  polygon.ibft.consensus: sequence started: height=697
+2022-09-06T19:01:53.728+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:53.729+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:55.736+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:55.737+0700 [INFO]  polygon.ibft: build block: number=697 txs=0
+2022-09-06T19:01:55.755+0700 [INFO]  polygon.blockchain: new block: number=697 txs=0 hash=0x0bd2c2b0b1cff57451437a18d9e69083472133370b4082fb1275ec60faf35e37 parent=0xb928c60d33eed98a0ae1a95527efb3e68096e5021feb175088d89dc2725ec54b generation_time_in_seconds=2
+2022-09-06T19:01:55.755+0700 [INFO]  polygon.ibft: block committed: number=697 hash=0x0bd2c2b0b1cff57451437a18d9e69083472133370b4082fb1275ec60faf35e37 validators=2 committed=2
+2022-09-06T19:01:55.756+0700 [INFO]  polygon.ibft.consensus: sequence done: height=697
+2022-09-06T19:01:55.756+0700 [INFO]  polygon.ibft.consensus: sequence started: height=698
+2022-09-06T19:01:55.756+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:55.764+0700 [INFO]  polygon.blockchain: block already inserted: block=697 source=syncer
+2022-09-06T19:01:57.771+0700 [INFO]  polygon.blockchain: new block: number=698 txs=0 hash=0x246762940da60c570b6f472dd0ce22c166a5ebfa73c62c02c7ad65905982d19c parent=0x0bd2c2b0b1cff57451437a18d9e69083472133370b4082fb1275ec60faf35e37 generation_time_in_seconds=2
+2022-09-06T19:01:57.771+0700 [INFO]  polygon.ibft: block committed: number=698 hash=0x246762940da60c570b6f472dd0ce22c166a5ebfa73c62c02c7ad65905982d19c validators=2 committed=2
+2022-09-06T19:01:57.771+0700 [INFO]  polygon.ibft.consensus: sequence done: height=698
+2022-09-06T19:01:57.771+0700 [INFO]  polygon.ibft.consensus: sequence started: height=699
+2022-09-06T19:01:57.771+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:01:57.772+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:01:59.775+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:01:59.775+0700 [INFO]  polygon.ibft: build block: number=699 txs=0
+2022-09-06T19:01:59.785+0700 [INFO]  polygon.blockchain: new block: number=699 txs=0 hash=0x1bf576ea649ac856484ce4a460e85ef9b9f26dc39c2dde2f4898b5469c819a6f parent=0x246762940da60c570b6f472dd0ce22c166a5ebfa73c62c02c7ad65905982d19c generation_time_in_seconds=2
+2022-09-06T19:01:59.785+0700 [INFO]  polygon.ibft: block committed: number=699 hash=0x1bf576ea649ac856484ce4a460e85ef9b9f26dc39c2dde2f4898b5469c819a6f validators=2 committed=2
+2022-09-06T19:01:59.785+0700 [INFO]  polygon.ibft.consensus: sequence done: height=699
+2022-09-06T19:01:59.785+0700 [INFO]  polygon.ibft.consensus: sequence started: height=700
+2022-09-06T19:01:59.785+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:01.798+0700 [INFO]  polygon.blockchain: new block: number=700 txs=0 hash=0xe7f8e70a6c805d1dbdaf017536c73c31b5dab54281a77aeb7a12d78ac0ed59b3 parent=0x1bf576ea649ac856484ce4a460e85ef9b9f26dc39c2dde2f4898b5469c819a6f generation_time_in_seconds=2
+2022-09-06T19:02:01.798+0700 [INFO]  polygon.ibft: block committed: number=700 hash=0xe7f8e70a6c805d1dbdaf017536c73c31b5dab54281a77aeb7a12d78ac0ed59b3 validators=2 committed=2
+2022-09-06T19:02:01.799+0700 [INFO]  polygon.ibft.consensus: sequence done: height=700
+2022-09-06T19:02:01.799+0700 [INFO]  polygon.ibft.consensus: sequence started: height=701
+2022-09-06T19:02:01.799+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:01.799+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:03.804+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:03.805+0700 [INFO]  polygon.ibft: build block: number=701 txs=0
+2022-09-06T19:02:03.813+0700 [INFO]  polygon.blockchain: new block: number=701 txs=0 hash=0xff5a39e3618b99029ccb74e8cbc0774c6a1f7601b4a654f3f20f1b5e0160e360 parent=0xe7f8e70a6c805d1dbdaf017536c73c31b5dab54281a77aeb7a12d78ac0ed59b3 generation_time_in_seconds=2
+2022-09-06T19:02:03.813+0700 [INFO]  polygon.ibft: block committed: number=701 hash=0xff5a39e3618b99029ccb74e8cbc0774c6a1f7601b4a654f3f20f1b5e0160e360 validators=2 committed=2
+2022-09-06T19:02:03.813+0700 [INFO]  polygon.ibft.consensus: sequence done: height=701
+2022-09-06T19:02:03.813+0700 [INFO]  polygon.ibft.consensus: sequence started: height=702
+2022-09-06T19:02:03.813+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:05.835+0700 [INFO]  polygon.blockchain: new block: number=702 txs=0 hash=0x13ef99d05d69aa129bef46867141077bfd5a80da31f22bf780537aba5653e64e parent=0xff5a39e3618b99029ccb74e8cbc0774c6a1f7601b4a654f3f20f1b5e0160e360 generation_time_in_seconds=2
+2022-09-06T19:02:05.835+0700 [INFO]  polygon.ibft: block committed: number=702 hash=0x13ef99d05d69aa129bef46867141077bfd5a80da31f22bf780537aba5653e64e validators=2 committed=2
+2022-09-06T19:02:05.835+0700 [INFO]  polygon.ibft.consensus: sequence done: height=702
+2022-09-06T19:02:05.835+0700 [INFO]  polygon.ibft.consensus: sequence started: height=703
+2022-09-06T19:02:05.835+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:05.836+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:07.836+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:07.836+0700 [INFO]  polygon.ibft: build block: number=703 txs=0
+2022-09-06T19:02:07.845+0700 [INFO]  polygon.blockchain: new block: number=703 txs=0 hash=0x34a11ef10dab7b95b309038b881872e39e9c2ced520e0e41c5c80224adbecf72 parent=0x13ef99d05d69aa129bef46867141077bfd5a80da31f22bf780537aba5653e64e generation_time_in_seconds=2
+2022-09-06T19:02:07.845+0700 [INFO]  polygon.ibft: block committed: number=703 hash=0x34a11ef10dab7b95b309038b881872e39e9c2ced520e0e41c5c80224adbecf72 validators=2 committed=2
+2022-09-06T19:02:07.845+0700 [INFO]  polygon.ibft.consensus: sequence done: height=703
+2022-09-06T19:02:07.845+0700 [INFO]  polygon.ibft.consensus: sequence started: height=704
+2022-09-06T19:02:07.845+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:09.858+0700 [INFO]  polygon.blockchain: new block: number=704 txs=0 hash=0x50f45a1bd2cd46aa0167f45032295c723629455ead008fe5b6fa778ff0b73d31 parent=0x34a11ef10dab7b95b309038b881872e39e9c2ced520e0e41c5c80224adbecf72 generation_time_in_seconds=2
+2022-09-06T19:02:09.858+0700 [INFO]  polygon.ibft: block committed: number=704 hash=0x50f45a1bd2cd46aa0167f45032295c723629455ead008fe5b6fa778ff0b73d31 validators=2 committed=2
+2022-09-06T19:02:09.858+0700 [INFO]  polygon.ibft.consensus: sequence done: height=704
+2022-09-06T19:02:09.858+0700 [INFO]  polygon.ibft.consensus: sequence started: height=705
+2022-09-06T19:02:09.858+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:09.859+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:11.861+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:11.862+0700 [INFO]  polygon.ibft: build block: number=705 txs=0
+2022-09-06T19:02:11.877+0700 [INFO]  polygon.blockchain: new block: number=705 txs=0 hash=0x93da9f35b8463b7735c9fc5e17c84e6251c65648e88ff46dac4cc160ae275020 parent=0x50f45a1bd2cd46aa0167f45032295c723629455ead008fe5b6fa778ff0b73d31 generation_time_in_seconds=2
+2022-09-06T19:02:11.877+0700 [INFO]  polygon.ibft: block committed: number=705 hash=0x93da9f35b8463b7735c9fc5e17c84e6251c65648e88ff46dac4cc160ae275020 validators=2 committed=2
+2022-09-06T19:02:11.877+0700 [INFO]  polygon.ibft.consensus: sequence done: height=705
+2022-09-06T19:02:11.877+0700 [INFO]  polygon.ibft.consensus: sequence started: height=706
+2022-09-06T19:02:11.877+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:13.899+0700 [INFO]  polygon.blockchain: new block: number=706 txs=0 hash=0xde48785579018eace68f29d4c39b5066fa39b10e6273a8180890e9df3f4fb915 parent=0x93da9f35b8463b7735c9fc5e17c84e6251c65648e88ff46dac4cc160ae275020 generation_time_in_seconds=2
+2022-09-06T19:02:13.899+0700 [INFO]  polygon.ibft: block committed: number=706 hash=0xde48785579018eace68f29d4c39b5066fa39b10e6273a8180890e9df3f4fb915 validators=2 committed=2
+2022-09-06T19:02:13.900+0700 [INFO]  polygon.ibft.consensus: sequence done: height=706
+2022-09-06T19:02:13.900+0700 [INFO]  polygon.ibft.consensus: sequence started: height=707
+2022-09-06T19:02:13.900+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:13.900+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:15.903+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:15.904+0700 [INFO]  polygon.ibft: build block: number=707 txs=0
+2022-09-06T19:02:15.920+0700 [INFO]  polygon.blockchain: new block: number=707 txs=0 hash=0x6cb15614c41f091a8473cf9cafec956d54a41dbe2e73a40d399b8f66f09d9fb5 parent=0xde48785579018eace68f29d4c39b5066fa39b10e6273a8180890e9df3f4fb915 generation_time_in_seconds=2
+2022-09-06T19:02:15.920+0700 [INFO]  polygon.ibft: block committed: number=707 hash=0x6cb15614c41f091a8473cf9cafec956d54a41dbe2e73a40d399b8f66f09d9fb5 validators=2 committed=2
+2022-09-06T19:02:15.920+0700 [INFO]  polygon.ibft.consensus: sequence done: height=707
+2022-09-06T19:02:15.920+0700 [INFO]  polygon.ibft.consensus: sequence started: height=708
+2022-09-06T19:02:15.920+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:17.934+0700 [INFO]  polygon.blockchain: new block: number=708 txs=0 hash=0xce4034551f42befb806d46ca5f3fc241de8a85ec197f74b26bff76750dbd126a parent=0x6cb15614c41f091a8473cf9cafec956d54a41dbe2e73a40d399b8f66f09d9fb5 generation_time_in_seconds=2
+2022-09-06T19:02:17.934+0700 [INFO]  polygon.ibft: block committed: number=708 hash=0xce4034551f42befb806d46ca5f3fc241de8a85ec197f74b26bff76750dbd126a validators=2 committed=2
+2022-09-06T19:02:17.934+0700 [INFO]  polygon.ibft.consensus: sequence done: height=708
+2022-09-06T19:02:17.934+0700 [INFO]  polygon.ibft.consensus: sequence started: height=709
+2022-09-06T19:02:17.934+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:17.935+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:19.935+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:19.935+0700 [INFO]  polygon.ibft: build block: number=709 txs=0
+2022-09-06T19:02:19.944+0700 [INFO]  polygon.blockchain: new block: number=709 txs=0 hash=0x7f62a7019a166b81a02d6aedc7c322912f64c49c9303a1d90ecdd76790070779 parent=0xce4034551f42befb806d46ca5f3fc241de8a85ec197f74b26bff76750dbd126a generation_time_in_seconds=2
+2022-09-06T19:02:19.944+0700 [INFO]  polygon.ibft: block committed: number=709 hash=0x7f62a7019a166b81a02d6aedc7c322912f64c49c9303a1d90ecdd76790070779 validators=2 committed=2
+2022-09-06T19:02:19.944+0700 [INFO]  polygon.ibft.consensus: sequence done: height=709
+2022-09-06T19:02:19.944+0700 [INFO]  polygon.ibft.consensus: sequence started: height=710
+2022-09-06T19:02:19.944+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:21.965+0700 [INFO]  polygon.blockchain: new block: number=710 txs=0 hash=0x7471e2526d516e53a3e8bb1ae3cf05c7a54b296b1b5c7e2c78e50ca0dd1b031b parent=0x7f62a7019a166b81a02d6aedc7c322912f64c49c9303a1d90ecdd76790070779 generation_time_in_seconds=2
+2022-09-06T19:02:21.965+0700 [INFO]  polygon.ibft: block committed: number=710 hash=0x7471e2526d516e53a3e8bb1ae3cf05c7a54b296b1b5c7e2c78e50ca0dd1b031b validators=2 committed=2
+2022-09-06T19:02:21.965+0700 [INFO]  polygon.ibft.consensus: sequence done: height=710
+2022-09-06T19:02:21.965+0700 [INFO]  polygon.ibft.consensus: sequence started: height=711
+2022-09-06T19:02:21.965+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:21.966+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:23.967+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:23.968+0700 [INFO]  polygon.ibft: build block: number=711 txs=0
+2022-09-06T19:02:23.976+0700 [INFO]  polygon.blockchain: new block: number=711 txs=0 hash=0x2fe4a66b6a722259e0451d02d32efd7842bc265d02807da7b37e0be419805bea parent=0x7471e2526d516e53a3e8bb1ae3cf05c7a54b296b1b5c7e2c78e50ca0dd1b031b generation_time_in_seconds=2
+2022-09-06T19:02:23.976+0700 [INFO]  polygon.ibft: block committed: number=711 hash=0x2fe4a66b6a722259e0451d02d32efd7842bc265d02807da7b37e0be419805bea validators=2 committed=2
+2022-09-06T19:02:23.976+0700 [INFO]  polygon.ibft.consensus: sequence done: height=711
+2022-09-06T19:02:23.976+0700 [INFO]  polygon.ibft.consensus: sequence started: height=712
+2022-09-06T19:02:23.976+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:25.990+0700 [INFO]  polygon.blockchain: new block: number=712 txs=0 hash=0xd61079c8884edb1f42598900ab49002e97e78453f478119369ceff760be0ad0a parent=0x2fe4a66b6a722259e0451d02d32efd7842bc265d02807da7b37e0be419805bea generation_time_in_seconds=2
+2022-09-06T19:02:25.990+0700 [INFO]  polygon.ibft: block committed: number=712 hash=0xd61079c8884edb1f42598900ab49002e97e78453f478119369ceff760be0ad0a validators=2 committed=2
+2022-09-06T19:02:25.990+0700 [INFO]  polygon.ibft.consensus: sequence done: height=712
+2022-09-06T19:02:25.990+0700 [INFO]  polygon.ibft.consensus: sequence started: height=713
+2022-09-06T19:02:25.990+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:25.990+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:27.993+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:27.994+0700 [INFO]  polygon.ibft: build block: number=713 txs=0
+2022-09-06T19:02:28.006+0700 [INFO]  polygon.blockchain: new block: number=713 txs=0 hash=0xc22c5f6707119042d2c6904089089e7ce7d34f789ab4dfaf8d9924d8364e5698 parent=0xd61079c8884edb1f42598900ab49002e97e78453f478119369ceff760be0ad0a generation_time_in_seconds=2
+2022-09-06T19:02:28.006+0700 [INFO]  polygon.ibft: block committed: number=713 hash=0xc22c5f6707119042d2c6904089089e7ce7d34f789ab4dfaf8d9924d8364e5698 validators=2 committed=2
+2022-09-06T19:02:28.007+0700 [INFO]  polygon.ibft.consensus: sequence done: height=713
+2022-09-06T19:02:28.007+0700 [INFO]  polygon.ibft.consensus: sequence started: height=714
+2022-09-06T19:02:28.007+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:30.020+0700 [INFO]  polygon.blockchain: new block: number=714 txs=0 hash=0x3da65028840d656932ed483191d0cf235217fc85604211d84bc421aff6e9bc5b parent=0xc22c5f6707119042d2c6904089089e7ce7d34f789ab4dfaf8d9924d8364e5698 generation_time_in_seconds=3
+2022-09-06T19:02:30.020+0700 [INFO]  polygon.ibft: block committed: number=714 hash=0x3da65028840d656932ed483191d0cf235217fc85604211d84bc421aff6e9bc5b validators=2 committed=2
+2022-09-06T19:02:30.021+0700 [INFO]  polygon.ibft.consensus: sequence done: height=714
+2022-09-06T19:02:30.021+0700 [INFO]  polygon.ibft.consensus: sequence started: height=715
+2022-09-06T19:02:30.021+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:30.021+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:32.025+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:32.026+0700 [INFO]  polygon.ibft: build block: number=715 txs=0
+2022-09-06T19:02:32.035+0700 [INFO]  polygon.blockchain: new block: number=715 txs=0 hash=0x7232667e21b1bb2faec2e4f17b59ff5a89738430b04107916cf0e06c8fae4134 parent=0x3da65028840d656932ed483191d0cf235217fc85604211d84bc421aff6e9bc5b generation_time_in_seconds=2
+2022-09-06T19:02:32.035+0700 [INFO]  polygon.ibft: block committed: number=715 hash=0x7232667e21b1bb2faec2e4f17b59ff5a89738430b04107916cf0e06c8fae4134 validators=2 committed=2
+2022-09-06T19:02:32.035+0700 [INFO]  polygon.ibft.consensus: sequence done: height=715
+2022-09-06T19:02:32.035+0700 [INFO]  polygon.ibft.consensus: sequence started: height=716
+2022-09-06T19:02:32.035+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:34.048+0700 [INFO]  polygon.blockchain: new block: number=716 txs=0 hash=0x270751f3a7a9ee582ec734ac9ba8f91115ab28873321d10fce6a002cf7d4007c parent=0x7232667e21b1bb2faec2e4f17b59ff5a89738430b04107916cf0e06c8fae4134 generation_time_in_seconds=2
+2022-09-06T19:02:34.048+0700 [INFO]  polygon.ibft: block committed: number=716 hash=0x270751f3a7a9ee582ec734ac9ba8f91115ab28873321d10fce6a002cf7d4007c validators=2 committed=2
+2022-09-06T19:02:34.048+0700 [INFO]  polygon.ibft.consensus: sequence done: height=716
+2022-09-06T19:02:34.048+0700 [INFO]  polygon.ibft.consensus: sequence started: height=717
+2022-09-06T19:02:34.048+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:34.048+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:36.052+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:36.054+0700 [INFO]  polygon.ibft: build block: number=717 txs=0
+2022-09-06T19:02:36.069+0700 [INFO]  polygon.blockchain: new block: number=717 txs=0 hash=0x5f3a7eee476622dcbb06741a1070304091d5529ca4f6dc008297dee904d6309a parent=0x270751f3a7a9ee582ec734ac9ba8f91115ab28873321d10fce6a002cf7d4007c generation_time_in_seconds=2
+2022-09-06T19:02:36.069+0700 [INFO]  polygon.ibft: block committed: number=717 hash=0x5f3a7eee476622dcbb06741a1070304091d5529ca4f6dc008297dee904d6309a validators=2 committed=2
+2022-09-06T19:02:36.069+0700 [INFO]  polygon.ibft.consensus: sequence done: height=717
+2022-09-06T19:02:36.069+0700 [INFO]  polygon.ibft.consensus: sequence started: height=718
+2022-09-06T19:02:36.069+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:38.089+0700 [INFO]  polygon.blockchain: new block: number=718 txs=0 hash=0x8e28daff75eb49e4f6b64f0168f88ccc573d04e647a039304b5106bfc679eecf parent=0x5f3a7eee476622dcbb06741a1070304091d5529ca4f6dc008297dee904d6309a generation_time_in_seconds=2
+2022-09-06T19:02:38.089+0700 [INFO]  polygon.ibft: block committed: number=718 hash=0x8e28daff75eb49e4f6b64f0168f88ccc573d04e647a039304b5106bfc679eecf validators=2 committed=2
+2022-09-06T19:02:38.089+0700 [INFO]  polygon.ibft.consensus: sequence done: height=718
+2022-09-06T19:02:38.089+0700 [INFO]  polygon.ibft.consensus: sequence started: height=719
+2022-09-06T19:02:38.089+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:38.090+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:40.091+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:40.092+0700 [INFO]  polygon.ibft: build block: number=719 txs=0
+2022-09-06T19:02:40.100+0700 [INFO]  polygon.blockchain: new block: number=719 txs=0 hash=0x0f855452c0096583fc999b2d23083ec1033d8b94c3677eb1b5d462f2d88e7dd1 parent=0x8e28daff75eb49e4f6b64f0168f88ccc573d04e647a039304b5106bfc679eecf generation_time_in_seconds=2
+2022-09-06T19:02:40.100+0700 [INFO]  polygon.ibft: block committed: number=719 hash=0x0f855452c0096583fc999b2d23083ec1033d8b94c3677eb1b5d462f2d88e7dd1 validators=2 committed=2
+2022-09-06T19:02:40.100+0700 [INFO]  polygon.ibft.consensus: sequence done: height=719
+2022-09-06T19:02:40.100+0700 [INFO]  polygon.ibft.consensus: sequence started: height=720
+2022-09-06T19:02:40.100+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:42.118+0700 [INFO]  polygon.blockchain: new block: number=720 txs=0 hash=0x5f23ea27bcb0e96cbdae4e4aa4299223f2b609b622af41cdee496641bca70e8c parent=0x0f855452c0096583fc999b2d23083ec1033d8b94c3677eb1b5d462f2d88e7dd1 generation_time_in_seconds=2
+2022-09-06T19:02:42.118+0700 [INFO]  polygon.ibft: block committed: number=720 hash=0x5f23ea27bcb0e96cbdae4e4aa4299223f2b609b622af41cdee496641bca70e8c validators=2 committed=2
+2022-09-06T19:02:42.118+0700 [INFO]  polygon.ibft.consensus: sequence done: height=720
+2022-09-06T19:02:42.118+0700 [INFO]  polygon.ibft.consensus: sequence started: height=721
+2022-09-06T19:02:42.118+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:42.119+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:44.123+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:44.124+0700 [INFO]  polygon.ibft: build block: number=721 txs=0
+2022-09-06T19:02:44.133+0700 [INFO]  polygon.blockchain: new block: number=721 txs=0 hash=0xf2305bde8a3516f1f5f29ca1f5caa8c1072c05de05c071dfb98347e9f9d8f640 parent=0x5f23ea27bcb0e96cbdae4e4aa4299223f2b609b622af41cdee496641bca70e8c generation_time_in_seconds=2
+2022-09-06T19:02:44.133+0700 [INFO]  polygon.ibft: block committed: number=721 hash=0xf2305bde8a3516f1f5f29ca1f5caa8c1072c05de05c071dfb98347e9f9d8f640 validators=2 committed=2
+2022-09-06T19:02:44.134+0700 [INFO]  polygon.ibft.consensus: sequence done: height=721
+2022-09-06T19:02:44.134+0700 [INFO]  polygon.ibft.consensus: sequence started: height=722
+2022-09-06T19:02:44.134+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:46.149+0700 [INFO]  polygon.blockchain: new block: number=722 txs=0 hash=0x9322d2b661a6aad8cb9878ea694db53390fc9656f52bb9635fba23ac8ca4dbdb parent=0xf2305bde8a3516f1f5f29ca1f5caa8c1072c05de05c071dfb98347e9f9d8f640 generation_time_in_seconds=2
+2022-09-06T19:02:46.149+0700 [INFO]  polygon.ibft: block committed: number=722 hash=0x9322d2b661a6aad8cb9878ea694db53390fc9656f52bb9635fba23ac8ca4dbdb validators=2 committed=2
+2022-09-06T19:02:46.149+0700 [INFO]  polygon.ibft.consensus: sequence done: height=722
+2022-09-06T19:02:46.149+0700 [INFO]  polygon.ibft.consensus: sequence started: height=723
+2022-09-06T19:02:46.149+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:46.149+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:48.152+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:48.153+0700 [INFO]  polygon.ibft: build block: number=723 txs=0
+2022-09-06T19:02:48.161+0700 [INFO]  polygon.blockchain: new block: number=723 txs=0 hash=0xcbdeae91ca1cb8103b1e6c8b340a18f7bb21ec82d6e6b3ef654b86e97518e3d2 parent=0x9322d2b661a6aad8cb9878ea694db53390fc9656f52bb9635fba23ac8ca4dbdb generation_time_in_seconds=2
+2022-09-06T19:02:48.161+0700 [INFO]  polygon.ibft: block committed: number=723 hash=0xcbdeae91ca1cb8103b1e6c8b340a18f7bb21ec82d6e6b3ef654b86e97518e3d2 validators=2 committed=2
+2022-09-06T19:02:48.161+0700 [INFO]  polygon.ibft.consensus: sequence done: height=723
+2022-09-06T19:02:48.161+0700 [INFO]  polygon.ibft.consensus: sequence started: height=724
+2022-09-06T19:02:48.161+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:50.184+0700 [INFO]  polygon.blockchain: new block: number=724 txs=0 hash=0xa68b5f6d5753c6c8da0e56752b4ecb1809a0978f6069c2222d6c6bb4228cfa60 parent=0xcbdeae91ca1cb8103b1e6c8b340a18f7bb21ec82d6e6b3ef654b86e97518e3d2 generation_time_in_seconds=2
+2022-09-06T19:02:50.184+0700 [INFO]  polygon.ibft: block committed: number=724 hash=0xa68b5f6d5753c6c8da0e56752b4ecb1809a0978f6069c2222d6c6bb4228cfa60 validators=2 committed=2
+2022-09-06T19:02:50.184+0700 [INFO]  polygon.ibft.consensus: sequence done: height=724
+2022-09-06T19:02:50.184+0700 [INFO]  polygon.ibft.consensus: sequence started: height=725
+2022-09-06T19:02:50.184+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:50.185+0700 [INFO]  polygon.ibft.consensus: we are the proposer
+2022-09-06T19:02:52.188+0700 [INFO]  polygon.ibft: executed txs: successful=0 failed=0 skipped=0 remaining=0
+2022-09-06T19:02:52.191+0700 [INFO]  polygon.ibft: build block: number=725 txs=0
+2022-09-06T19:02:52.207+0700 [INFO]  polygon.blockchain: new block: number=725 txs=0 hash=0x041a1080602b4ca97ef6be66bfe8fa3d463b5c25c3701f7f6d3dff78b02d22f6 parent=0xa68b5f6d5753c6c8da0e56752b4ecb1809a0978f6069c2222d6c6bb4228cfa60 generation_time_in_seconds=2
+2022-09-06T19:02:52.207+0700 [INFO]  polygon.ibft: block committed: number=725 hash=0x041a1080602b4ca97ef6be66bfe8fa3d463b5c25c3701f7f6d3dff78b02d22f6 validators=2 committed=2
+2022-09-06T19:02:52.208+0700 [INFO]  polygon.ibft.consensus: sequence done: height=725
+2022-09-06T19:02:52.208+0700 [INFO]  polygon.ibft.consensus: sequence started: height=726
+2022-09-06T19:02:52.208+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:54.224+0700 [INFO]  polygon.blockchain: new block: number=726 txs=0 hash=0xd7323b81682fbd126f4fc20c41ccfc1b09c1f656374ab8c74a7ebd2841c9b03f parent=0x041a1080602b4ca97ef6be66bfe8fa3d463b5c25c3701f7f6d3dff78b02d22f6 generation_time_in_seconds=2
+2022-09-06T19:02:54.224+0700 [INFO]  polygon.ibft: block committed: number=726 hash=0xd7323b81682fbd126f4fc20c41ccfc1b09c1f656374ab8c74a7ebd2841c9b03f validators=2 committed=2
+2022-09-06T19:02:54.224+0700 [INFO]  polygon.ibft.consensus: sequence done: height=726
+2022-09-06T19:02:54.224+0700 [INFO]  polygon.ibft.consensus: sequence started: height=727
+2022-09-06T19:02:54.224+0700 [INFO]  polygon.ibft.consensus: round started: round=0
+2022-09-06T19:02:54.224+0700 [INFO]  polygon.ibft.consensus: we are the proposer
