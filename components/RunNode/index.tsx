@@ -3,11 +3,12 @@ import { useState } from "react";
 import { Node } from "../../pages";
 
 export interface NodeConfig {
-  name: string | undefined;
+  name: string;
   gRpcPort: number;
-  jsonRpcPort: number | undefined;
-  nat: string | undefined;
-  libp2pPort: number | undefined;
+  jsonRpcPort: number;
+  nat: string;
+  libp2pPort: number;
+  blockTime: number;
 }
 
 interface RunNodeProps {
@@ -21,6 +22,7 @@ export default function RunNode(props: RunNodeProps) {
     gRpcPort: 10001,
     jsonRpcPort: 10002,
     libp2pPort: 10003,
+    blockTime: 10,
     name: "",
     nat: "",
   });
@@ -41,6 +43,8 @@ export default function RunNode(props: RunNodeProps) {
       newConfig.nat = value;
     } else if (key === "libp2pPort") {
       newConfig.libp2pPort = parseInt(value);
+    } else if (key === "blockTime") {
+      newConfig.blockTime = parseInt(value);
     }
     setNodeConfig(newConfig);
   };
@@ -97,6 +101,14 @@ export default function RunNode(props: RunNodeProps) {
         placeholder="Json RPC port"
         onChange={(e) => {
           updateNodeConfig("jsonRpcPort", e.target.value);
+        }}
+      />
+      Block Time:
+      <Input
+        value={nodeConfig?.blockTime}
+        placeholder="Block Time"
+        onChange={(e) => {
+          updateNodeConfig("blockTime", e.target.value);
         }}
       />
       NAT Address:

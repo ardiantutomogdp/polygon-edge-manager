@@ -24,7 +24,6 @@ export default function GenesisConfig(props: GenesisConfigProps) {
     "1000000000000000000000"
   );
   const [chainId, setChainId] = useState<number>(999);
-  const [blockTime, setBlockTime] = useState<number>(10);
   const [blockGasLimit, setBlockGasLimit] = useState<number>(1000000000);
   const [chainName, setChainName] = useState<string>("test-chain");
 
@@ -34,7 +33,6 @@ export default function GenesisConfig(props: GenesisConfigProps) {
       premineValue,
       chainId,
       blockGasLimit,
-      blockTime,
       chainName,
     } as GenesisConfig;
     fetch("http://localhost:3000/api/genesis", {
@@ -53,14 +51,6 @@ export default function GenesisConfig(props: GenesisConfigProps) {
         placeholder="Chain Name"
         onChange={(e) => {
           setChainName(e.target.value);
-        }}
-      />
-      Block Time:
-      <Input
-        value={blockTime}
-        placeholder="Block Time"
-        onChange={(e) => {
-          setBlockTime(parseInt(e.target.value));
         }}
       />
       Premine Address:

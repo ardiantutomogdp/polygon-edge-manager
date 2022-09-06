@@ -35,7 +35,7 @@ const createGenesisFile = async (
   let validatorCommand = constructValidatorCommand(nodes);
   let bootNodeCommand = constructBootNodeCommand(nodes);
   let configCommand = "";
-  configCommand += `--name ${genesisConfig.chainName} --premine=${genesisConfig.premineAddress}:${genesisConfig.premineValue} --block-gas-limit ${genesisConfig.blockGasLimit} --chain-id ${genesisConfig.chainId} --block-time ${genesisConfig.blockTime}`;
+  configCommand += `--name ${genesisConfig.chainName} --premine=${genesisConfig.premineAddress}:${genesisConfig.premineValue} --block-gas-limit ${genesisConfig.blockGasLimit} --chain-id ${genesisConfig.chainId}`;
 
   try {
     execSync(`cd nodes && rm genesis.json`);

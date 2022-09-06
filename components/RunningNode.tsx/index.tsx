@@ -25,6 +25,7 @@ export default function RunningNode(props: RunningNodeProps) {
               <Th>gRPCPort</Th>
               <Th>libp2pPort</Th>
               <Th>JsonRPCPort</Th>
+              <Th>Block Time</Th>
               <Th>NAT</Th>
             </Tr>
           </Thead>
@@ -36,6 +37,7 @@ export default function RunningNode(props: RunningNodeProps) {
                   <Td>{node.gRpcPort}</Td>
                   <Td>{node.libp2pPort}</Td>
                   <Td>{node.jsonRpcPort}</Td>
+                  <Td>{node.blockTime}</Td>
                   <Td>{node.nat}</Td>
                 </Tr>
               );
