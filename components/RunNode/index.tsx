@@ -60,6 +60,7 @@ export default function RunNode(props: RunNodeProps) {
           updateNodeConfig("name", e.target.value);
         }}
       />
+      gRPCPort:
       <Input
         value={nodeConfig?.gRpcPort}
         placeholder="gRPC port"
@@ -67,13 +68,7 @@ export default function RunNode(props: RunNodeProps) {
           updateNodeConfig("gRpcPort", e.target.value);
         }}
       />
-      <Input
-        value={nodeConfig?.jsonRpcPort}
-        placeholder="Json RPC port"
-        onChange={(e) => {
-          updateNodeConfig("jsonRpcPort", e.target.value);
-        }}
-      />
+      libp2pPort:
       <Input
         value={nodeConfig?.libp2pPort}
         placeholder="libp2p port"
@@ -81,6 +76,15 @@ export default function RunNode(props: RunNodeProps) {
           updateNodeConfig("libp2pPort", e.target.value);
         }}
       />
+      jsonRPCPort:
+      <Input
+        value={nodeConfig?.jsonRpcPort}
+        placeholder="Json RPC port"
+        onChange={(e) => {
+          updateNodeConfig("jsonRpcPort", e.target.value);
+        }}
+      />
+      NAT Address:
       <Input
         value={nodeConfig?.nat}
         placeholder="nat address"

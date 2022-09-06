@@ -15,7 +15,7 @@ interface RunningNodeProps {
 
 export default function RunningNode(props: RunningNodeProps) {
   return (
-    <div>
+    <div style={{ padding: "1rem" }}>
       Running Node:
       <TableContainer>
         <Table variant="simple" overflow={"scroll"}>

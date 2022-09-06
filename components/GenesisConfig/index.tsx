@@ -4,6 +4,7 @@ import { Node } from "../../pages";
 
 interface GenesisConfigProps {
   nodes: Node[];
+  setGenesisGenerated: (x: any) => void;
 }
 
 export interface GenesisConfig {
@@ -22,6 +23,7 @@ export default function GenesisConfig(props: GenesisConfigProps) {
   );
   const [chainId, setChainId] = useState<number>(999);
   const [blockGasLimit, setBlockGasLimit] = useState<number>(1000000000);
+
   const generateGenesisFile = async () => {
     const genesisConfig = {
       premineAddress,
@@ -32,10 +34,11 @@ export default function GenesisConfig(props: GenesisConfigProps) {
     fetch("http://localhost:3000/api/genesis", {
       method: "POST",
       body: JSON.stringify({ nodes: props.nodes, genesisConfig }),
-    }).then(async (response) => {
-      console.log(response);
+    }).then(async () => {
+      props.setGenesisGenerated(true);
     });
   };
+
   return (
     <div style={{ marginTop: "1rem", padding: "1rem " }}>
       Premine Address:

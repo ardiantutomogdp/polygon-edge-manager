@@ -49,7 +49,7 @@ const createGenesisFile = async (
   let outString: any = out.toString();
   if (outString.includes("[GENESIS SUCCESS]")) {
     appendFileSync(
-      "data/db.json",
+      "./data/db.json",
       JSON.stringify({
         nodes,
         genesisConfig,

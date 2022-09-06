@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CreateNode from "../components/CreateNode";
 import GenesisConfig from "../components/GenesisConfig";
 import NodesList from "../components/NodesList";
@@ -19,41 +19,49 @@ const Home: NextPage = () => {
   const [nodes, setNodes] = useState<Node[]>([]);
   const [runningNodes, setRunningNodes] = useState<NodeConfig[]>([]);
   const [dirName, setDirName] = useState<string>("");
+  const [genesisGenerated, setGenesisGenerated] = useState<boolean>(false);
 
-  // useEffect(() => {
-  //   const nodesInStorage = localStorage.getItem("nodes");
-  //   if (nodesInStorage !== null && nodesInStorage.length > 0) {
-  //     const items = JSON.parse(nodesInStorage);
-  //     if (items) {
-  //       setNodes(items);
-  //     }
-  //   }
-  // }, []);
+  useEffect(() => {
+    fetch("http://localhost:3000/api/data", {
+      method: "GET",
+    }).then(async (response) => {
+      const data = await response.json();
+      if (data.noData) {
+        setGenesisGenerated(false);
+      } else {
+        setGenesisGenerated(true);
+      }
+    });
+  }, []);
 
-  // useEffect(() => {
-  //   if (nodes.length > 0) {
-  //     localStorage.setItem("nodes", JSON.stringify(nodes));
-  //   }
-  // }, [nodes]);
-
-  return (
-    <>
-      <CreateNode
-        dirName={dirName}
-        nodes={nodes}
-        setDirName={setDirName}
-        setNodes={setNodes}
-      />
-      <NodesList nodes={nodes} setNodes={setNodes} />
-      <GenesisConfig nodes={nodes} />
-      <RunNode
-        nodes={nodes}
-        runningNodes={runningNodes}
-        setRunningNodes={setRunningNodes}
-      />
-      <RunningNode runningNodes={runningNodes} />
-    </>
-  );
+  if (genesisGenerated) {
+    return (
+      <>
+        <RunNode
+          nodes={nodes}
+          runningNodes={runningNodes}
+          setRunningNodes={setRunningNodes}
+        />
+        <RunningNode runningNodes={runningNodes} />
+      </>
+    );
+  } else {
+    return (
+      <>
+        <CreateNode
+          dirName={dirName}
+          nodes={nodes}
+          setDirName={setDirName}
+          setNodes={setNodes}
+        />
+        <NodesList nodes={nodes} setNodes={setNodes} />
+        <GenesisConfig
+          nodes={nodes}
+          setGenesisGenerated={setGenesisGenerated}
+        />
+      </>
+    );
+  }
 };
 
 export default Home;
