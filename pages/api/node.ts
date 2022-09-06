@@ -1,14 +1,16 @@
 import { execSync } from "child_process";
 import type { NextApiRequest, NextApiResponse } from "next";
-//https://stackabuse.com/executing-shell-commands-with-node-js/
+import { Node } from "..";
+
 type Data = {
   dirName: string;
+  count: number;
 };
 
-const createNode = async (dirName: string) => {
+const createNode = async (data: Data) => {
   let id, publicKey;
   let out = execSync(
-    `cd nodes && polygon-edge secrets init --data-dir ${dirName}`
+    `cd nodes && polygon-edge secrets init --data-dir ${data.dirName}`
   );
 
   let outString: any = out.toString();
@@ -23,7 +25,11 @@ const createNode = async (dirName: string) => {
   return {
     id,
     publicKey,
-  };
+    dirName: data.dirName,
+    isValidator: true,
+    isBootNode: true,
+    port: (data.count + 1) * 10001,
+  } as Node;
 };
 
 export default async function handler(
@@ -32,7 +38,7 @@ export default async function handler(
 ) {
   if (req.method === "POST") {
     const body: Data = JSON.parse(req.body);
-    const node = await createNode(body.dirName);
+    const node = await createNode(body);
     res.status(200).json({ node });
   } else {
     res.status(404);
