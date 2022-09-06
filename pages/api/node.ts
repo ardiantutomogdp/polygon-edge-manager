@@ -9,6 +9,9 @@ type Data = {
 
 const createNode = async (data: Data) => {
   let id, publicKey;
+  try {
+    execSync(`mkdir nodes`);
+  } catch (e) {}
   let out = execSync(
     `cd nodes && polygon-edge secrets init --data-dir ${data.dirName}`
   );
