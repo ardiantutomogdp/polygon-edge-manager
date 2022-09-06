@@ -29,6 +29,7 @@ const Home: NextPage = () => {
       if (data.noData) {
         setGenesisGenerated(false);
       } else {
+        setNodes(data.data.nodes);
         setGenesisGenerated(true);
       }
     });

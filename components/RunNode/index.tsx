@@ -1,10 +1,10 @@
-import { Button, Input } from "@chakra-ui/react";
+import { Button, Input, Select } from "@chakra-ui/react";
 import { useState } from "react";
 import { Node } from "../../pages";
 
 export interface NodeConfig {
   name: string | undefined;
-  gRpcPort: number | undefined;
+  gRpcPort: number;
   jsonRpcPort: number | undefined;
   nat: string | undefined;
   libp2pPort: number | undefined;
@@ -18,9 +18,9 @@ interface RunNodeProps {
 
 export default function RunNode(props: RunNodeProps) {
   const [nodeConfig, setNodeConfig] = useState<NodeConfig>({
-    gRpcPort: undefined,
-    jsonRpcPort: undefined,
-    libp2pPort: undefined,
+    gRpcPort: 10001,
+    jsonRpcPort: 10002,
+    libp2pPort: 10003,
     name: "",
     nat: "",
   });
@@ -32,6 +32,10 @@ export default function RunNode(props: RunNodeProps) {
     } else if (key === "jsonRpcPort") {
       newConfig.jsonRpcPort = parseInt(value);
     } else if (key === "name") {
+      const node = props.nodes.filter((rn) => rn.dirName === value);
+      newConfig.gRpcPort = node[0].port - 1;
+      newConfig.libp2pPort = node[0].port;
+      newConfig.jsonRpcPort = node[0].port + 1;
       newConfig.name = value;
     } else if (key === "nat") {
       newConfig.nat = value;
@@ -53,13 +57,24 @@ export default function RunNode(props: RunNodeProps) {
   return (
     <div style={{ marginTop: "1rem", padding: "1rem " }}>
       Start a Node
-      <Input
-        value={nodeConfig?.name}
-        placeholder="Name"
+      <Select
         onChange={(e) => {
           updateNodeConfig("name", e.target.value);
         }}
-      />
+        placeholder="Select a Node"
+      >
+        {props.nodes.map((node) => {
+          const exists = props.runningNodes.filter(
+            (rn) => rn.name === node.dirName
+          );
+          if (exists.length > 0) return;
+          return (
+            <option key={node.id} value={node.dirName}>
+              {node.dirName}
+            </option>
+          );
+        })}
+      </Select>
       gRPCPort:
       <Input
         value={nodeConfig?.gRpcPort}
