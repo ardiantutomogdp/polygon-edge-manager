@@ -1,11 +1,6 @@
 import { readFileSync } from "fs";
 import type { NextApiRequest, NextApiResponse } from "next";
 
-type Data = {
-  dirName: string;
-  count: number;
-};
-
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<any>

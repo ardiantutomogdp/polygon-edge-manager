@@ -14,7 +14,7 @@ const runNode = async (nodes: Node[], nodeConfig: NodeConfig) => {
     return false;
   }
 
-  let cmd = `server --data-dir ./${nodeConfig.name} --chain genesis.json --grpc-address 0.0.0.0:${nodeConfig.gRpcPort} --libp2p 0.0.0.0:${nodeConfig.libp2pPort} --jsonrpc 0.0.0.0:${nodeConfig.jsonRpcPort}`;
+  let cmd = `server --data-dir ./${nodeConfig.name} --chain genesis.json --grpc-address 0.0.0.0:${nodeConfig.gRpcPort} --libp2p 0.0.0.0:${nodeConfig.libp2pPort} --jsonrpc 0.0.0.0:${nodeConfig.jsonRpcPort} --block-time ${nodeConfig.blockTime}`;
   if (nodeConfig.nat !== undefined) {
     cmd += ` --nat ${nodeConfig.nat}`;
   }

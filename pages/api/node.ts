@@ -31,7 +31,7 @@ const createNode = async (data: Data) => {
     dirName: data.dirName,
     isValidator: true,
     isBootNode: true,
-    port: (data.count + 1) * 10001,
+    port: (data.count + 1) * 10000 + 1,
   } as Node;
 };
 

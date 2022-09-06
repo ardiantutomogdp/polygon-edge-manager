@@ -19,9 +19,9 @@ interface RunNodeProps {
 
 export default function RunNode(props: RunNodeProps) {
   const [nodeConfig, setNodeConfig] = useState<NodeConfig>({
-    gRpcPort: 10001,
+    gRpcPort: 10000,
+    libp2pPort: 10001,
     jsonRpcPort: 10002,
-    libp2pPort: 10003,
     blockTime: 10,
     name: "",
     nat: "",
