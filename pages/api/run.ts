@@ -22,11 +22,11 @@ const runNode = async (nodes: Node[], nodeConfig: NodeConfig) => {
   const runCmd = spawn("polygon-edge", cmd.split(" "), { cwd: "./nodes" });
 
   runCmd.stdout.on("data", (data) => {
-    appendFileSync(`${nodeConfig.name}`, data);
+    appendFileSync(`logs/${nodeConfig.name}`, data);
   });
 
   runCmd.stderr.on("data", (data) => {
-    appendFileSync(`${nodeConfig.name}`, data);
+    appendFileSync(`logs/${nodeConfig.name}`, data);
   });
 
   runCmd.on("error", (error) => {

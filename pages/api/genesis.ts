@@ -1,4 +1,5 @@
 import { execSync } from "child_process";
+import { appendFileSync } from "fs";
 import type { NextApiRequest, NextApiResponse } from "next";
 import { Node } from "..";
 import { GenesisConfig } from "../../components/GenesisConfig";
@@ -47,6 +48,13 @@ const createGenesisFile = async (
 
   let outString: any = out.toString();
   if (outString.includes("[GENESIS SUCCESS]")) {
+    appendFileSync(
+      "data/db.json",
+      JSON.stringify({
+        nodes,
+        genesisConfig,
+      })
+    );
     return true;
   }
   return false;
@@ -62,6 +70,6 @@ export default async function handler(
     const success = await createGenesisFile(body.nodes, body.genesisConfig);
     res.status(200).json({ success });
   } else {
-    res.status(404);
+    res.status(404).json({ error: true });
   }
 }
